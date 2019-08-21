@@ -1,0 +1,36 @@
+.notification-component{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border: 0.5px solid #eee;
+    width: 390px;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+    .icon{
+        width: 50px;
+        img{
+                height: 40px;
+                widows: 40px;
+        }
+    }
+    .content{
+            padding-left: 10px;
+            display: flex;
+            flex-direction: column;
+            div{
+                padding: 2px 0px;
+            }
+            .title{
+                font-size: 16px;
+                font-weight: bold;
+            }
+            .description{
+                    font-size: 10px;
+                    line-height: 15px;
+            }
+            .discount{
+                    font-size: 10px;
+                    color: green;
+            }
+    }
+}

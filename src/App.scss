@@ -1,0 +1,9 @@
+.Layout > .bottom-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.page-content{
+    height: 200px;
+    width: calc(100%-240px);
+}
